@@ -1,25 +1,35 @@
-$('#about-li').click( function() {
-	var topOf = $('body').offset().top;
-	$('body, html').animate({ scrollTop:topOf });
+var bodyTop = $('body').offset().top;
+var projectsTop = $('#projects').offset().top;
+var hobbiesTop = $('#hobbies').offset().top;
+console.log(bodyTop, projectsTop, hobbiesTop);
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
 
-	$('.navbar li').css('background-color', '#FB3640')	
-	$('#about-li').css('background-color', '#1D3461')
+    if ( bodyTop == scroll) {
+		$('.navbar li').css('background-color', '#FB3640');
+		$('#about-li').css('background-color', '#1D3461');
+    }
+    else if ( projectsTop >= scroll && scroll < hobbiesTop ) {
+		$('.navbar li').css('background-color', '#FB3640');	
+		$('#projects-li').css('background-color', '#1D3461');
+    }
+    else if ( hobbiesTop >= scroll) {
+		$('.navbar li').css('background-color', '#FB3640');
+		$('#hobbies-li').css('background-color', '#1D3461');
+    }
+
+});
+
+$('#about-li').click( function() {
+	$('body, html').animate({ scrollTop:bodyTop });
 });
 
 $('#projects-li').click( function() {
-	var topOf = $('#projects').offset().top;
-	$('body, html').animate({ scrollTop:topOf });
-
-	$('.navbar li').css('background-color', '#FB3640')	
-	$('#projects-li').css('background-color', '#1D3461')
+	$('body, html').animate({ scrollTop:projectsTop });
 });
 
 $('#hobbies-li').click( function() {
-	var topOf = $('#hobbies').offset().top;
-	$('body, html').animate({ scrollTop:topOf });
-
-	$('.navbar li').css('background-color', '#FB3640')	
-	$('#hobbies-li').css('background-color', '#1D3461')
+	$('body, html').animate({ scrollTop:hobbiesTop });
 });
 
 $('#arrow').click( function() {
