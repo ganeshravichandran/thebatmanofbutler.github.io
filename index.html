@@ -3,29 +3,80 @@
 <head>
 	<title>Ganesh Ravichandran</title>
 
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Biryani' rel='stylesheet' type='text/css'>
+
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 </head>
 
 <body>
 	
-	<div class="navbar">
-		
+	<div class="wrapper">
+		<div class="navbar">
+			<ul>
+				<li id="about-li" class="margin-right pointer">about</li>
+				<li id="projects-li" class="margin-right pointer">projects</li>
+				<li id="hobbies-li" class="margin-right pointer">hobbies</li>
+			</ul>
+		</div>
+
+		<div class="main">
+			<section id="about">
+				<h1>Ganesh Ravichandran</h1>
+
+				<!-- <h2>coder &#8226; explorer &#8226; aspiring astronaut</h2> -->
+
+				<div id="links">
+					<a class="margin-right" href="https://github.com/TheBatmanofButler/">
+						<img src="img/github.png">
+					</a>
+					<a class="margin-right" href="https://www.linkedin.com/in/ganesh-ravichandran-370793a1">
+						<img src="img/linkedIn.png">
+					</a>
+					<a class="margin-right" href="http://www.3005hacks.com/">
+						<img src="img/3005-logo.jpg">
+					</a>
+					<a href="mailto://ganesh.ravichandran@columbia.edu">
+						<img src="img/gmail.png">
+					</a>
+				</div>
+
+			</section>
+
+			<section id="projects">
+				<div class="project-box" id="arrow">
+					<img src="img/arrow.png">
+				</div>
+				<div class="project-box" class="project-box" id="kepler">
+					<img src="img/kepler.png">
+				</div>
+				<div class="project-box" id="trace">
+					<img src="img/trace.png">
+				</div>
+				<div class="project-box" id="lexicalPT">
+					<img src="img/lexicalPT.png">
+				</div>
+				<div class="project-box" id="mrMime">
+					<img src="img/mrmime.png">
+				</div>
+				<div class="project-box" id="RCSS">
+					<img src="img/rcss.png">
+				</div>
+			</section>
+
+			<section id="hobbies">
+				Coming soon!
+			</section>
+		</div>
 	</div>
 
-	<section id="about"></section>
-
-	<section id="projects">
-		<div id="arrow"></div>
-		<div id="kepler"></div>
-		<div id="trace"></div>
-		<div id="lexicalPT"></div>
-		<div id="mrMime"></div>
-		<div id="RCSS"></div>
-	</section>
-
-	<section id="hobbies"></section>
-
+	<!-- JS -->
+	<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 

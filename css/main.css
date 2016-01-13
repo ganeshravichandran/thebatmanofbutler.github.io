@@ -5,5 +5,90 @@ html, body {
 	width: 100%;
 	height: 100%;
 
-	background-color: #000;
+	background-color: #1D3461;
+	color: #fff;
+
+	font-family: Biryani;
+}
+
+h1 {
+	font-size: 420%;
+}
+
+h2 {
+	font-size: 220%;
+}
+
+section {
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+#about {
+	text-align: center;
+}
+
+#links img {
+	height: 10%;
+}
+
+.margin-right {
+	margin-right: 5%;
+}
+
+#links a:hover {
+	opacity: 0.5;
+}
+
+#about-li {
+	background-color: #1D3461;
+}
+
+.navbar {
+	float: left;
+	position: fixed;
+
+	height: 100%;
+	width: 10%;
+}
+
+.navbar ul {
+	text-align: center;
+	list-style-type: none;
+}
+.navbar li {
+	background-color: #FB3640;
+
+	height: 20vh;
+	width: 100%;
+}
+
+.main {
+	margin-left: 10%;
+	padding: 5%;
+}
+
+.project-box {
+	background-color: #1F487E;
+
+	float: left;
+	text-align: center;
+
+	margin: 1%;
+
+	width: 30%;
+	height: 40%;
+
+}
+
+.project-box img{
+	width: 100%;
+	height: 100%;
+}
+
+.pointer {
+	cursor: pointer;
 }
