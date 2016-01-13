@@ -149,13 +149,13 @@ a {
 }
 
 #kepler-popup {
-	height: 40vh;
-	margin-top: -20vh;
+	height: 46vh;
+	margin-top: -23vh;
 }
 
 #trace-popup {
-	height: 40vh;
-	margin-top: -20vh;
+	height: 42vh;
+	margin-top: -20.5vh;
 }
 
 #lexicalPT-popup {
@@ -164,8 +164,8 @@ a {
 }
 
 #mrMime-popup {
-	height: 45vh;
-	margin-top: -27.5vh;
+	height: 50vh;
+	margin-top: -25vh;
 }
 
 #RoboAO-popup {
