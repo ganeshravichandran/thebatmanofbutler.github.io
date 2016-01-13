@@ -17,19 +17,19 @@
 <body>
 	
 	<div class="wrapper">
+
 		<div class="navbar">
 			<ul>
-				<li id="about-li" class="margin-right pointer">about</li>
-				<li id="projects-li" class="margin-right pointer">projects</li>
-				<li id="hobbies-li" class="margin-right pointer">hobbies</li>
+				<li id="about-li" class="pointer">about</li>
+				<li id="projects-li" class="pointer">projects</li>
+				<li id="hobbies-li" class="pointer">hobbies</li>
 			</ul>
 		</div>
 
 		<div class="main">
 			<section id="about">
 				<h1>Ganesh Ravichandran</h1>
-
-				<!-- <h2>coder &#8226; explorer &#8226; aspiring astronaut</h2> -->
+				<h2>coder &#8226; explorer &#8226; aspiring astronaut</h2>
 
 				<div id="links">
 					<a class="margin-right" href="https://github.com/TheBatmanofButler/">
@@ -50,27 +50,124 @@
 
 			<section id="projects">
 				<div class="project-box" id="arrow">
+					<div class="project-heading">Arrow</div>
 					<img src="img/arrow.png">
 				</div>
 				<div class="project-box" class="project-box" id="kepler">
+					<div class="project-heading">Kepler Web App</div>
 					<img src="img/kepler.png">
 				</div>
 				<div class="project-box" id="trace">
+					<div class="project-heading">Trace</div>
 					<img src="img/trace.png">
 				</div>
 				<div class="project-box" id="lexicalPT">
+					<div class="project-heading">LexicalPT</div>
 					<img src="img/lexicalPT.png">
 				</div>
 				<div class="project-box" id="mrMime">
+					<div class="project-heading">Mr. Mime</div>
 					<img src="img/mrmime.png">
 				</div>
-				<div class="project-box" id="RCSS">
+				<div class="project-box" id="RoboAO">
+					<div class="project-heading">Robo-AO GUI</div>
 					<img src="img/rcss.png">
 				</div>
+
+				<div class="popup" id="arrow-popup">
+					Do you ever go to a concert with your friends, just to lose them in the crowd? Arrow is a mobile app designed to allow users to find each other by pointing an arrow in the direction of other users in their network. The closer you get to another user, the redder the arrow becomes!
+					<br>
+					<br>
+					Arrow also includes a built-in subway feature that directs users to the nearest subway station. Instead of relying on street maps (which are especially complicating for tourists), the user simply walks in the direction of the arrow until they reach the station.
+					<br>
+					<br>
+					Currently being built for iOS and Android using React Native.
+					<br>
+					<br>
+					<a href="https://github.com/TheBatmanofButler/Arrow">See the code!</a>
+					<br>
+					<br>
+					<div class="close-link">
+						Close
+					</div>
+				</div>
+
+				<div class="popup" id="kepler-popup">
+					The Kepler Web App is an easy-to-use UI for viewing data from False Positive Probability analyses of Kepler Objects of Interest. Kepler is a NASA mission that has found more than 4000 planetary candidates outside of the Milky Way, but the process of validating these candidates (i.e. distinguishing between actual planets and false positives) is time-consuming and computaitonally expensive. Dr. Tim Morton at Princeton has developed a probabilistic method of validating Kepler Objects of Interest, and this UI displays this data.
+					<br>
+					<br>
+					Built using Flask, jQuery, and vanilla JS.
+					<br>
+					<br>
+					<div class="close-link">
+						Close
+					</div>
+				</div>
+
+				<div class="popup" id="trace-popup">
+					Trace is a web app that allows users to play a guessing game against each other. One user poses a question and a hint, while the other users guess the answer using text, GIFs, and music.
+					<br>
+					<br>
+					I worked on this project in conjunction with my development group, <a href="www.3005hacks.com">3005Hacks</a>.
+					<br>
+					<br>
+					Built using Node.js, socket.IO, jQuery, and vanilla JS.
+					<br>
+					<br>
+					<div class="close-link">
+						Close
+					</div>
+				</div>
+
+				<div class="popup" id="lexicalPT-popup">
+					LexicalPT is a convenient way for physical therapy patients to submit their therapy data online with a perfectly-engineered form designed to make the process as painless as possible.
+					<br>
+					<br>
+					I worked on this project in conjunction with
+					<a href="diagraphictech.com">Diagraphic Technologies</a>.
+					<br>
+					<br>
+					Built using Node.js, socket.IO, dynamoDB, jQuery, and vanilla JS.
+					<br>
+					<br>
+					<div class="close-link">
+						Close
+					</div>
+				</div>
+
+				<div class="popup" id="mrMime-popup">
+					Mr. Mime is an Arduino-based robot that creates long-exposure images by controlling the motion of a pixel stick. Images are uplodaded to the Arduino using a well-engineered UI that allows users to drag and edit images in the browser.
+					<br>
+					<br>
+					I am working on this project as part of ADI Labs, a student-run collaboration that aims to provide mentorship on a diverse set of open-source programming projects and provide personalized mentorship on working in the tech industry.
+					<br>
+					<br>
+					Built using Flask, jQuery, 
+					<a href="http://packery.metafizzy.co/">packery.js</a>,
+					<a href="http://draggabilly.desandro.com/">draggabilly.js</a>, and vanilla JS.
+					<br>
+					<br>
+					<div class="close-link">
+						Close
+					</div>
+				</div>
+
+				<div class="popup" id="RoboAO-popup">
+					The Robotic Adaptive Optics system is a laser adaptive optics instrument operating at Palomar Observatory in California. Designed by a team of scientists and engineers at Caltech and the Inter-University Centre for Astronomy and Astrophysics, Robo-AO takes images of stars suspected of harboring exoplanets. I designed an easy-to-use GUI to run through Robo-AO images and catalog star coordinates.
+					<br>
+					<br>
+					Built using wxPython, numPy, sciPy, and matplotlib.
+					<br>
+					<br>
+					<div class="close-link">
+						Close
+					</div>
+				</div>
+
 			</section>
 
 			<section id="hobbies">
-				Coming soon!
+				<h1>Coming soon!</h1>
 			</section>
 		</div>
 	</div>
